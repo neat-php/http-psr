@@ -1,0 +1,30 @@
+{
+    "name": "neat/http-psr",
+    "description": "Neat HTTP PSR-7 bridge",
+    "keywords": ["psr", "http", "request", "response"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Guido van Biemen",
+            "email": "guidovanbiemen@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Neat\\Http\\Psr\\": "classes/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Neat\\Http\\Psr\\Test\\": "tests/"
+        }
+    },
+    "require": {
+        "php": ">=7.0",
+        "neat/http": "dev-master",
+        "psr/http-message": "^1.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^6.0"
+    }
+}
