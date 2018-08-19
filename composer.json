@@ -1,7 +1,13 @@
 {
     "name": "neat/http-psr",
     "description": "Neat HTTP PSR-7 bridge",
-    "keywords": ["psr", "http", "request", "response"],
+    "type": "library",
+    "keywords": [
+        "psr",
+        "http",
+        "request",
+        "response"
+    ],
     "license": "MIT",
     "authors": [
         {
